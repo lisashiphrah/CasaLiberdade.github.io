@@ -9,6 +9,6 @@ Arquivo explicando os princípios por trás da existência deste espaço.
 [Planilha financeira](https://docs.google.com/spreadsheet/ccc?key=0AmTz2idiCFnndHAwSWs4QzRnb3dMc1BlOW1ILTdINXc&usp=docslist_api)
 Registro de receitas (contribuições) e despesas mensais.
 
-[Grupo do Facebook](www.facebook.com/groups/casaliberdade)
+[Grupo do Facebook](http://www.facebook.com/groups/casaliberdade)
 Grupo onde se agenda uso dos espaços e ocorre a comunicação geral.
 
