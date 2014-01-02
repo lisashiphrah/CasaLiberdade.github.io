@@ -12,3 +12,5 @@ Registro de receitas (contribuições) e despesas mensais.
 [Grupo do Facebook](http://www.facebook.com/groups/casaliberdade)
 Grupo onde se agenda uso dos espaços e ocorre a comunicação geral.
 
+[Agenda](https://www.facebook.com/groups/casaliberdade/events/)
+Agenda dos eventos para consulta e reserva de espaços.
