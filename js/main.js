@@ -2,25 +2,32 @@
 	
 	"use strict";
 	
-    $(document).ready(function(){
-		var rightNow = new Date();
-		if(rightNow.getDate() >= 9 && rightNow.getHours() >= 12){
-			window.dateToContribute = rightNow.add(1).month();
-		} else {
-			window.dateToContribute = rightNow;
-		}
-		console.log(window.dateToContribute);
-		jQuery('#countdown_dashboard').countDown({
-				targetDate: {
-					'day': 		9, // Put the date here
-					'month': 	window.dateToContribute.getMonth()+1, // Month
-					'year': 	window.dateToContribute.getFullYear(), // Year
-					'hour': 	12,
-					'min': 		0,
-					'sec': 		0
-				} //,omitWeeks: true
-		});
+	  $(document).ready(function(){
+			var rightNow = new Date();
+			if(rightNow.getDate() >= 9 && rightNow.getHours() >= 12){
+				window.dateToContribute = rightNow.add(1).month();
+			} else {
+				window.dateToContribute = rightNow;
+			}
+			jQuery('#countdown_dashboard').countDown({
+					targetDate: {
+						'day': 		9, // Put the date here
+						'month': 	window.dateToContribute.getMonth()+1, // Month
+						'year': 	window.dateToContribute.getFullYear(), // Year
+						'hour': 	12,
+						'min': 		0,
+						'sec': 		0
+					} //,omitWeeks: true
+			});
 			
+			var url = 'https://unlock.fund/casaliberdade.json';
+	    $.ajax({
+				type: 'GET',
+				url: url,
+				async: false,
+				contentType: "application/json",
+				dataType: 'jsonp'
+	    });
 
 
 
