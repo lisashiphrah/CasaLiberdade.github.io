@@ -25,6 +25,13 @@
     		console.log(json);
 	    });
 
+	    var $contribBar = $('#progress-contributions');
+	    var achieved = $contribBar.data('fund');
+	    var total = 9000
+	    var percentage = Math.round((achieved*100)/total);
+	    var progressed = percentage > 100 ? 100 : percentage;
+	    $contribBar.attr('aria-valuenow', progressed).css('width',progressed+"%");
+	    $contribBar.html(percentage+"%");
 
 
 		/* Hero height
