@@ -21,12 +21,8 @@
 			});
 			
 			var url = 'https://unlock.fund/casaliberdade.json';
-	    $.ajax({
-				type: 'GET',
-				url: url,
-				async: false,
-				contentType: "application/json",
-				dataType: 'jsonp'
+	    $.getJSON(url, function(json, textStatus){
+    		console.log(json);
 	    });
 
 
