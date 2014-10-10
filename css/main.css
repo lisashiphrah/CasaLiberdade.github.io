@@ -110,17 +110,10 @@ a:after {
 
 #logowrapper {
   position: fixed;
-  top: 160px;
+  top: 230px;
   left: 50%;
   margin-left: -373px;
 }
-
-#headerwrap h2 {
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  text-shadow: rgba(0, 0, 0, 0.6) 0px 1px 0px;
-}
-
-
 
 ::-webkit-input-placeholder { /* WebKit browsers */
   color:    #fff;
@@ -385,23 +378,7 @@ a:after {
   background-size: cover;
 }
 
-#headerwrap h1, #headerwrap h2{
-  z-index:3;
-  position:relative;
-  text-shadow: rgba(0, 0, 0, 0.6) 0px 1px 0px;
-}
 #headerwrap h1 {
-  color: white;
-  font-size: 140px;
-  font-weight: 700;
-  letter-spacing: 3px;
-}
-
-#headerwrap h2 {
-  color: white;
-  font-size: 40px;
-  font-weight: 300;
-  line-height:1em;
 }
 
 #overlay {
