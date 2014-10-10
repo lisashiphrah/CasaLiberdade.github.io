@@ -144,8 +144,8 @@ a:after {
 
 .white{
   background: #ffffff;
-  padding-top: 35px;
-  padding-bottom: 35px;
+  padding-top: 120px;
+  padding-bottom: 120px;
   text-align: center;
 }
 .pattern {
@@ -169,8 +169,8 @@ a:after {
 .grey {
   background: #f2f2f2;
   text-align: center;
-  padding-top: 35px;
-  padding-bottom: 35px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .noPadding{
   padding:0;
@@ -247,7 +247,8 @@ a:after {
   display: block;
   font-size: 12px;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 1.4em;
+  margin-bottom: 20px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
