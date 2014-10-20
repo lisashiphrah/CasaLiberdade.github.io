@@ -20,16 +20,16 @@
 					} //,omitWeeks: true
 			});
 			
-			var url = 'https://unlock.fund/casaliberdade.json';
-	    $.getJSON(url, function(json, textStatus){
-    		console.log(json);
-	    });
+			// var url = 'https://unlock.fund/casaliberdade.json';
+	  //   $.getJSON(url, function(json, textStatus){
+   //  		console.log(json);
+	  //   });
 
 	    var $contribBar = $('#progress-contributions');
 	    var achieved = $contribBar.data('fund');
 	    var total = $contribBar.data('goal');
 	    var percentage = Math.round((achieved*100)/total);
-	    var progressed = percentage > 100 ? 100 : percentage;
+	    var progressed = Math.min(percentage, 100);
 	    $contribBar.attr('aria-valuenow', progressed).css('width',progressed+"%");
 	    $contribBar.html(percentage+"%");
 
