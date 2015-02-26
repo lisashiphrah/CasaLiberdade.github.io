@@ -55,15 +55,15 @@
 		});
 			
 		/* Gallery
-		================================================== */
+		================================================== 
 		new Photostack( document.getElementById( 'photostack' ), {
 			callback : function( item ) {
 				//console.log(item)
 			}
-		} );	
+		} );	*/
 			
 			/* Gallery popup
-		=================================================== */	
+		=================================================== 	
 		$('.photostack').magnificPopup({
 			delegate: 'a',
 			type: 'image',
@@ -80,11 +80,7 @@
 					return item.el.attr('title');
 				}
 			},
-			/* zoom: {
-				enabled: true,
-				duration: 300 // don't foget to change the duration also in CSS
-			} */
-		});
+		});*/
 		
 		//Home Background slider
 		jQuery.supersized({	
